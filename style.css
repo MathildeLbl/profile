@@ -1,0 +1,94 @@
+body {
+  background-color: #FFF4EA;
+  font-family: "Baskerville Old Face Normal";
+  color: #664343;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+h1, h2 {
+  color: #795757;
+  font-family: "Book Antica";
+  font-size: 32px;
+  line-height: 24px;
+}
+
+a {
+  color: #C96868;
+  text-decoration: none;
+}
+ a:hover {
+  color: #7EACB5;
+  text-decoration: none;
+ }
+
+ p {
+  margin-bottom: 30px;
+ }
+
+ .container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline > li {
+  display: inline;
+  padding: 40px;
+}
+
+.list-inline i {
+  list-style: none;
+  font-size: 40px;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.card-white {
+  background: white;
+  padding: 30px;
+  margin: 16px auto;
+  border-radius: 16px;
+  box-shadow: #664343, .1;
+}
+
+.bouton-beige {
+  background-color: #FFF4EA;
+  display: inline;
+  padding: 8px;
+  border: 2px solid #D6C0B3;
+  border-radius: 8px;
+  margin: 32px;
+}
+
+#photo-profil {
+  size: 16px;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
